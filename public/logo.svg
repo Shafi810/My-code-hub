@@ -1,0 +1,50 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 950 950"
+  role="img"
+  aria-label="S H logo"
+>
+  <defs>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="55%" stop-color="#0b2bff" stop-opacity="0.9" />
+      <stop offset="85%" stop-color="#0b2bff" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0b2bff" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#glowGrad)" />
+  <g transform="translate(150,120)">
+    <circle
+      cx="300"
+      cy="300"
+      r="220"
+      fill="#ffffff"
+      filter="url(#softGlow)"
+    />
+    <path
+      d="M 250 180 
+         C 160 180, 160 300, 250 300 
+         C 340 300, 340 420, 250 420
+         C 160 420, 160 540, 250 540"
+      fill="none"
+      stroke="#064bff"
+      stroke-width="60"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 330 260 L 330 480 M 330 370 L 420 370 M 420 260 L 420 480"
+      stroke="#6fd2ff"
+      stroke-width="40"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
