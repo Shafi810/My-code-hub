@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import Logo from "./logo";
+import Logo from "./Logo.jsx";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { navLinks } from "./data/Featuredata";
