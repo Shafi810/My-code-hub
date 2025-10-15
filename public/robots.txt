@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://my-code-hub.vercel.app/sitemap.xml
