@@ -4,7 +4,8 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { navLinks } from "./data/Featuredata";
 import { useState } from "react";
-import React from "react";
+
+
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -45,14 +46,17 @@ const Navbar = () => {
             </ul>
 
             {/* Desktop Buttons */}
-          <div className="hidden lg:flex items-center space-x-6">
-  <a
-    href="/shafi"
-    download="shafi.pdf"
-    className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-medium rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
-  >
-    📄 Download Resume
-  </a>
+         <div className="hidden lg:flex items-center space-x-6">
+  <button className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white 
+    font-medium rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+    <a
+      href="/resume.pdf"
+      download='resume.pdf'
+     
+    >
+      Download Resume
+    </a>
+  </button>
 </div>
             {/* Mobile Toggle */}
             <div className="lg:hidden flex text-2xl">
@@ -93,8 +97,8 @@ const Navbar = () => {
               </ul>
 
              <a
-    href="/shafi"
-    download="shafi.pdf"
+     href="/resume.pdf"
+    download="resume"
     className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500
                  text-white text-center font-medium rounded-lg shadow-md hover:scale-105 transition-transform  duration-300"
   >
