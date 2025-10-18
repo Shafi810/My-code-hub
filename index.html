@@ -4,11 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ✅ Primary SEO -->
     <title>Shafi Code Hub | Freelance Frontend Developer & React Expert</title>
     <meta
       name="description"
-      content="I design and develop fast, responsive, and modern websites using React, Tailwind, HTML, CSS, and JavaScript. Hire me for landing pages, UI fixes, and performance optimization."
+      content="I design and develop fast,responsive,and modern websites using React,Tailwind,HTML,CSS,and JavaScript.Hire me for landing pages,UI fixes,and performance optimization."
     />
     <meta
       name="keywords"
@@ -18,15 +17,25 @@
     <link rel="canonical" href="https://my-code-hub.vercel.app" />
 
     <!-- ✅ Favicons -->
+    <!-- ✅ Favicon Setup -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <link rel="alternate icon" type="image/png" href="/logo1.png" />
+    <link rel="alternate icon" type="image/webp" href="/logo1.webp" />
 
+    <!-- ✅ Apple & PWA Icons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- ✅ Theme color for mobile browsers -->
+    <meta name="theme-color" content="#000000" />
     <!-- ✅ Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
 
     <!-- ✅ Open Graph (Facebook, LinkedIn, WhatsApp) -->
@@ -41,7 +50,7 @@
     />
     <meta
       property="og:image"
-      content="https://my-code-hub.vercel.app/logo1.png"
+      content="https://my-code-hub.vercel.app/logo1.webp"
     />
     <meta property="og:url" content="https://my-code-hub.vercel.app" />
     <meta property="og:site_name" content="Shafi Code Hub" />
@@ -55,17 +64,22 @@
     />
     <meta
       name="twitter:image"
-      content="https://my-code-hub.vercel.app/logo1.png"
+      content="https://my-code-hub.vercel.app/logo1.webp"
     />
     <meta name="twitter:creator" content="@shaficodehub" />
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z282QVS624"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Z282QVS624');
-</script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z282QVS624"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-Z282QVS624");
+    </script>
   </head>
 
   <body class="body-gradient">

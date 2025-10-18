@@ -17,7 +17,6 @@ const iconsMap = {
   mobile: BiSolidMobileVibration,
 };
 
-
 const Skills = () => {
   return (
     <main>
@@ -34,12 +33,12 @@ const Skills = () => {
           >
             Skills
           </h2>
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl mt-8 lg:mt-14 tracking-wide leading-tight">
+          <h3 className="text-3xl sm:text-5xl lg:text-6xl xl:text-7xl mt-8 lg:mt-14 tracking-wide leading-tight">
             Complete Frontend{" "}
             <span className="font-extrabold bg-gradient-to-r from-blue-300 to-blue-500 text-transparent bg-clip-text">
               Expertise
             </span>
-          </h1>
+          </h3>
         </div>
 
         {/* Features Grid */}

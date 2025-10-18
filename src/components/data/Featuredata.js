@@ -42,12 +42,12 @@ export const featuresData = [
   }
 ];
 export const navLinks = [
-  { name: "Home", href: "home" },
-  { name: "Skills", href: "skills" },
-  { name: "Workflow", href: "workflow" },
-  { name: "Pricing", href: "pricing" },
-  { name: "Issues", href: "issues" },
-  { name: "Contact", href: "contact" },
+  { name: "Home", href: "#home" },
+  { name: "Skills", href: "#skills" },
+  { name: "Workflow", href: "#workflow" },
+  { name: "Pricing", href: "#pricing" },
+  { name: "Issues", href: "#issues" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const checklistItems = [
@@ -121,26 +121,7 @@ export const pricingOptions = [
 
 
 
-export const footerLinks = [
-  {
-    title: "Resources",
-    links: [
-      { href: "#", text: "Getting Started" },
-      { href: "#", text: "Documentation" },
-      { href: "#", text: "Tutorials" },
-      { href: "#", text: "Community Forums" }
-    ]
-  },
-  {
-    title: "Platform",
-    links: [
-      { href: "#", text: "Features" },
-      { href: "#", text: "Supported Devices" },
-      { href: "#", text: "System Requirements" },
-      { href: "#", text: "Downloads" }
-    ]
-  },
-];
+
 
 
 // frontendIssues2025.js
