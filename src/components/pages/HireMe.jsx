@@ -6,6 +6,13 @@ const HireMe = () => {
     // Fiverr profile redirect
     window.location.href = "https://www.fiverr.com/s/8zW4BrE";
   }, []);
+  useEffect(() => {
+  const timer = setTimeout(() => {
+    window.location.href = "https://www.fiverr.com/s/8zW4BrE";
+  }, 2000); // 2 seconds
+  return () => clearTimeout(timer);
+}, []);
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#0A1D37] text-white text-center px-6">
