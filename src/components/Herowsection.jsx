@@ -72,7 +72,7 @@ const Herowsection = () => {
             >
               <a
                 className="relative z-10 flex items-center"
-                href="https://www.fiverr.com/s/6YglBBA"
+                href="/hire"
                 target="_blank"
                 rel="noopener noreferrer"
               >
